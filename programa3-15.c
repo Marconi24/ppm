@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include <math>
+
 /* Cálculo de P.
 El programa obtiene el valor de P aplicando una serie determinada.
 I, B, C: variables de tipo entero.
@@ -25,5 +25,5 @@ B = 1;
 }
 C++;
 }
-printf(“\nNúmero de términos:%d”, C);
+printf("\nNúmero de términos:%d", C);
 }

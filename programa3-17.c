@@ -6,8 +6,8 @@ I, J, NUM, SUM, C: variables de tipo entero. */
 void main(void)
 {
 int I, J, NUM, SUM, C = 0;
-printf(“\nIngrese el número límite: “);
-scanf(“%d”, &NUM);
+printf("\nIngrese el número límite: ");
+scanf("%d", &NUM);
 for (I = 1; I <= NUM; I++)
 {
 SUM = 0;
@@ -16,9 +16,9 @@ if ((I % J) == 0)
 SUM += J;
 if (SUM == I)
 {
-printf(“\n%d es un número perfecto”, I);
+printf("\n%d es un número perfecto", I);
 C++;
 }
 }
-printf(“\nEntre 1 y %d hay %d números perfectos”, NUM, C);
+printf("\nEntre 1 y %d hay %d números perfectos", NUM, C);
 }

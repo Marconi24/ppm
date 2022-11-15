@@ -8,8 +8,8 @@ void main(void)
 {
 int OP, T;
 float RES;
-printf(“Ingrese la opción del cálculo y el valor entero: “);
-scanf(“%d %d”, &OP, &T);
+printf("Ingrese la opción del cálculo y el valor entero: ");
+scanf("%d %d", &OP, &T);
 switch(OP)
 {
 case 1: RES = T / 5;
@@ -23,5 +23,5 @@ break;
 default: RES = 1;
 break;
 }
-printf(“\nResultado: %7.2f”, RES);
+printf("\nResultado: %7.2f", RES);
 }

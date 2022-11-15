@@ -9,7 +9,7 @@ long SSE = 0;
 while (I <= 2500)
 {
 SSE = SSE + I;
-printf(“\t %d”, I);
+printf("\t %d", I);
 if (CAM)
 {
 I += 5;
@@ -21,5 +21,5 @@ I += 3;
 CAM++;
 }
 }
-printf(“\nLa suma de la serie es: %ld”, SSE);
+printf("\nLa suma de la serie es: %ld", SSE);
 }

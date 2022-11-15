@@ -7,12 +7,12 @@ NUM: variable de tipo entero. */
 void main(void)
 {
 int NUM;
-printf(“Ingresa el número para calcular la serie: “);
-scanf(“%d”, &NUM);
+printf("Ingresa el número para calcular la serie: ");
+scanf("%d", &NUM);
 if (NUM > 0)
 {
-     printf(“\nSerie de ULAM\n”);
-         printf(“%d \t”, NUM);
+     printf("\nSerie de ULAM\n");
+         printf("%d \t", NUM);
           while (NUM != 1)
 {
 if (pow(-1, NUM) > 0)
@@ -24,5 +24,5 @@ printf(“%d \t”, NUM);
                  }
                    else
                    
-printf(“\n NUM debe ser un entero positivo”);
+printf("\n NUM debe ser un entero positivo");
 }

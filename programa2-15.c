@@ -9,8 +9,8 @@ void main(void)
 {
 int TRA, EDA, DIA;
 float COS;
-printf(“Ingrese tipo de tratamiento, edad y días: “);
-scanf(“%d %d %d”, &TRA, &EDA, &DIA);
+printf("Ingrese tipo de tratamiento, edad y días: ");
+scanf("%d %d %d", &TRA, &EDA, &DIA);
 switch(TRA)
 {
 case 1: COS = DIA * 2800; break;
@@ -26,9 +26,9 @@ COS = COS * 0.75;
 else
 if (EDA <= 25)
 COS = COS * 0.85;
-printf(“\nClave tratamiento: %d\t Días: %d\t Costo total: %8.2f”,
+printf("\nClave tratamiento: %d\t Días: %d\t Costo total: %8.2f",
 TRA, DIA, COS);
 }
 else
-printf(“\nLa clave del tratamiento es incorrecta”);
+printf("\nLa clave del tratamiento es incorrecta");
 }
