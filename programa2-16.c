@@ -8,8 +8,8 @@ SAL: variable de tipo real. */
 void main(void)
 {
 int CLA, CAT, ANT, RES;
-printf(“\nIngrese la clave, categoría y antigüedad del trabajador:”);
-scanf(“%d %d %d”, &CLA, &CAT, &ANT);
+printf("\nIngrese la clave, categoría y antigüedad del trabajador:");
+scanf("%d %d %d", &CLA, &CAT, &ANT);
 switch(CAT)
 {
 case 3:
@@ -27,9 +27,9 @@ default: RES = 0;
 break;
 }
 if (RES)
-printf(“\nEl trabajador con clave %d reúne las condiciones para el
-➥puesto”, CLA);
+printf("\nEl trabajador con clave %d reúne las condiciones para el
+➥puesto", CLA);
 else
-printf(“\nEl trabajador con clave %d no reúne las condiciones para 
-➥el puesto”, CLA);
+printf("\nEl trabajador con clave %d no reúne las condiciones para 
+➥el puesto", CLA);
 }
